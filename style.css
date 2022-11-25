@@ -12,6 +12,7 @@ h1{
     margin: 50px;
 }
 
+
 .conteudo {
      padding: 100px; 
     display: grid;
@@ -23,38 +24,42 @@ h1{
     text-decoration: none;
     background-color: white;
     text-align: center;
-    padding: 15px; 
-    border-radius: 10px;
+    padding: 20px; 
+    border-radius: 5px;
     color: black;
 
     
 }
 
 .logo {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 600px;
-    width: 300px;
+    margin-top: 30px;
     
 }
 
 .link  {
+    margin-top: 30px;
     display: flex;
     gap: 25px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
+
+.link a:hover {
+    border: 2px solid #ee2211;
+}
+
+
 .item1 {
     place-content: end;
     padding: 100px 10px 0 0;
     text-align: end;
-    background-color: white;
+    background-color: white; 
 }
 
 .item1 h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 2.5rem;
 }
 
 .item1 a {
@@ -66,9 +71,13 @@ h1{
     background-color: #ee2211;
 }
 
-.item1 p{
+.item1 a:hover{
+    background-color: #900;
+}
+
+.item1 article{
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -83,6 +92,7 @@ h1{
     font-weight: bold;
     text-align: end;
     padding-right: 10px;
+    background-image: url("./img/onda.svg");
 }
 
 
@@ -92,12 +102,28 @@ h1{
 .item4 {
     padding: 10px 0px 0px 30px;
     background-color: white;
-    text-align: left;
+   
 }
 
 .item4 img {
     width: 20px;
     
+}
+
+
+li {
+    list-style: none;
+    position: relative;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+li:hover{
+    border-left: 5px solid red;
+}
+
+li:nth-child(odd){
+    background-color: #f7f7f7;
 }
 
 .item4 span {
